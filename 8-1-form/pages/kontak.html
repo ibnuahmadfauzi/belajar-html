@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Kontak</title>
+  </head>
+  <body>
+    <h1>Kontak</h1>
+
+    <a href="../index.html">Beranda</a> | <a href="profil.html">Profil</a> |
+    <a href="kontak.html">Kontak</a>
+
+    <hr />
+
+    <p>Email: admin@example.com</p>
+
+    <h1>Hubungi</h1>
+
+    <form action="#" method="post">
+      <p>
+        <label for="nama">Nama</label><br />
+        <input
+          type="text"
+          id="nama"
+          name="nama"
+          placeholder="Masukkan nama Anda"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="telepon">Nomor HP</label><br />
+        <input
+          type="tel"
+          id="telepon"
+          name="telepon"
+          placeholder="08xxxxxxxxxx"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="nama@email.com"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="subject">Subject</label><br />
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Masukkan subject"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="pesan">Pesan</label><br />
+        <textarea
+          id="pesan"
+          name="pesan"
+          rows="5"
+          cols="40"
+          placeholder="Tuliskan pesan Anda..."
+          required
+        ></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Kirim" />
+        <input type="reset" value="Reset" />
+      </p>
+    </form>
+  </body>
+</html>
